@@ -1,5 +1,8 @@
-var chorus = "Let's dance!";
-for (var repeat = 0; repeat < 10; repeat++) {
-  console.log(chorus);
+function calculateRectangleArea(length,width){
+  if( length * width)
+    onsole.log(calculateRectangleArea(10, 5));     // should print 50
+console.log(calculateRectangleArea(1.5, 2.5));  // should print 3.75
+console.log(calculateRectangleArea(10, -5));    // should print undefined
 }
-console.log("Until the sun comes up!");
+
+
